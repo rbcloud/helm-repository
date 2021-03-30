@@ -3,7 +3,18 @@ entries:
   game-2048:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-03-30T15:06:04.026271923+02:00"
+    created: "2021-03-30T15:31:28.50382466+02:00"
+    description: A Helm chart for Kubernetes
+    digest: af77c33d11eb2eb3c4b395606d1a18dbd50128a4bdf6d2ec5fbc1a55c27ffdc4
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/144px-2048_logo.svg.png
+    name: game-2048
+    type: application
+    urls:
+    - https://rbcloud.github.io/helm-repository/game-2048-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-03-30T15:31:28.503157337+02:00"
     description: A Helm chart for Kubernetes
     digest: b022e434f708f3cb2762c8d1e5ca5049759d052e21687a0d636fca9ad966841d
     icon: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/144px-2048_logo.svg.png
@@ -12,4 +23,4 @@ entries:
     urls:
     - https://rbcloud.github.io/helm-repository/game-2048-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-30T15:06:04.025591737+02:00"
+generated: "2021-03-30T15:31:28.502389503+02:00"
