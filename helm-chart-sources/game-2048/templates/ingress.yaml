@@ -1,4 +1,5 @@
-{{ if .Values.ingress.enabled }}
+{{- if .Values.ingress.enabled -}}
+{{- $svcPort := .Values.service.port -}}
 apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
@@ -26,10 +27,10 @@ spec:
       http:
         paths:
           {{- range .paths }}
-          - path: {{ .path }}
+          - path: {{ . }}
             backend:
               serviceName: "game-2048"
-              servicePort: {{ .Values.service.port }}
+              servicePort: {{ $svcPort }}
           {{- end }}
     {{- end }}
 {{- end }}
